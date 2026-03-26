@@ -89,63 +89,6 @@
       </div>
     </section>
 
-    <!-- WHAT WE BELIEVE -->
-    <section class="beliefs-strip section-pad bg-primary" aria-label="What We Believe">
-      <div class="container">
-
-        <div class="beliefs-strip__header fade-up">
-          <div>
-            <p class="section-label left">Our Beliefs</p>
-            <h2 class="section-headline" style="margin-bottom:0;">What We Stand On</h2>
-          </div>
-          <a href="ventures.html" class="beliefs-strip__more">
-            View Ventures <span aria-hidden="true">&rarr;</span>
-          </a>
-        </div>
-
-        <div class="gold-line fade-up" style="margin-bottom: 48px;"></div>
-
-        <div class="beliefs-list">
-
-          <a href="ventures.html" class="belief-row fade-up">
-            <span class="belief-row__num">I</span>
-            <span class="belief-row__title">Every Christian man carries a calling that deserves to be funded.</span>
-            <span class="belief-row__snippet">Too many God-given visions die for lack of a partner willing to back them.</span>
-            <span class="belief-row__arrow" aria-hidden="true">&rarr;</span>
-          </a>
-
-          <a href="ventures.html" class="belief-row fade-up fade-up-delay-1">
-            <span class="belief-row__num">II</span>
-            <span class="belief-row__title">Capital without relationship is just a transaction.</span>
-            <span class="belief-row__snippet">A check is easy. Showing up when it's hard - that's the difference.</span>
-            <span class="belief-row__arrow" aria-hidden="true">&rarr;</span>
-          </a>
-
-          <a href="ventures.html" class="belief-row fade-up fade-up-delay-2">
-            <span class="belief-row__num">III</span>
-            <span class="belief-row__title">The greatest return is a legacy that outlasts the investor.</span>
-            <span class="belief-row__snippet">We measure success by what a man's grandchildren are still building on.</span>
-            <span class="belief-row__arrow" aria-hidden="true">&rarr;</span>
-          </a>
-
-          <a href="ventures.html" class="belief-row fade-up fade-up-delay-3">
-            <span class="belief-row__num">IV</span>
-            <span class="belief-row__title">God-built businesses are the most durable businesses on earth.</span>
-            <span class="belief-row__snippet">Built on calling and character - recession-proof by design.</span>
-            <span class="belief-row__arrow" aria-hidden="true">&rarr;</span>
-          </a>
-
-          <a href="ventures.html" class="belief-row fade-up fade-up-delay-4">
-            <span class="belief-row__num">V</span>
-            <span class="belief-row__title">What a man builds for his children should belong entirely to them.</span>
-            <span class="belief-row__snippet">Every partnership includes a structured equity buy-back path from day one.</span>
-            <span class="belief-row__arrow" aria-hidden="true">&rarr;</span>
-          </a>
-
-        </div>
-      </div>
-    </section>
-
     <!-- HOW WE ARE DIFFERENT -->
     <section class="section-pad bg-tertiary" aria-label="How We Are Different">
       <div class="container">
@@ -363,45 +306,6 @@
       white-space: nowrap; padding-bottom: 4px;
       border-bottom: 1px solid rgba(201,168,76,0.35);
       transition: color 0.25s ease, border-color 0.25s ease;
-    }
-    .beliefs-strip__more:hover { color: var(--gold-bright); border-color: var(--gold); }
-    .beliefs-list { display: flex; flex-direction: column; }
-    .belief-row {
-      display: grid; grid-template-columns: 36px 1fr 1fr 24px;
-      align-items: center; gap: 0 28px; padding: 22px 16px;
-      text-decoration: none; border-bottom: 1px solid rgba(201,168,76,0.1);
-      border-radius: 3px; transition: background 0.25s ease, padding-left 0.25s ease;
-    }
-    .belief-row:first-child { border-top: 1px solid rgba(201,168,76,0.1); }
-    .belief-row:hover { background: rgba(201,168,76,0.05); padding-left: 24px; }
-    .belief-row:hover .belief-row__num,
-    .belief-row:hover .belief-row__arrow { color: var(--gold); }
-    .belief-row:hover .belief-row__title { color: var(--gold-bright); }
-    .belief-row__num {
-      font-family: var(--font-display); font-size: 0.75rem;
-      letter-spacing: 0.2em; color: rgba(201,168,76,0.5); transition: color 0.25s ease;
-    }
-    .belief-row__title {
-      font-family: var(--font-display); font-size: clamp(1rem, 1.4vw, 1.2rem);
-      font-weight: 600; color: var(--text-primary); line-height: 1.35; transition: color 0.25s ease;
-    }
-    .belief-row__snippet {
-      font-family: var(--font-body); font-size: 0.82rem; color: var(--text-muted);
-      line-height: 1.5; padding-left: 16px; border-left: 1px solid rgba(201,168,76,0.15);
-    }
-    .belief-row__arrow {
-      font-size: 0.9rem; color: rgba(201,168,76,0.3); text-align: right;
-      transition: color 0.25s ease, transform 0.25s ease;
-    }
-    .belief-row:hover .belief-row__arrow { transform: translateX(4px); }
-    @media (max-width: 768px) {
-      .beliefs-strip__header { flex-direction: column; align-items: flex-start; }
-      .belief-row {
-        grid-template-columns: 28px 1fr 20px;
-        grid-template-rows: auto auto; gap: 4px 16px;
-      }
-      .belief-row__snippet { grid-column: 2; border-left: none; padding-left: 0; margin-top: 4px; }
-      .belief-row__arrow { grid-row: 1; }
     }
   </style>
 
